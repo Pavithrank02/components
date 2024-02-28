@@ -4,7 +4,6 @@ import { GoogleLogin } from '@react-oauth/google';
 const GoogleAuthComponent = () => {
   const responseGoogle = (response) => {
     console.log(response);
-    // Here you can handle the Google sign-in response, like getting user data, sending it to backend, etc.
   }
 
   return (
